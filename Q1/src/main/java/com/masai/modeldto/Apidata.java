@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.masai.modeldto;
 
 import java.util.List;
@@ -10,10 +7,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author ASUS
- *
- */
 
 @Data
 @AllArgsConstructor
