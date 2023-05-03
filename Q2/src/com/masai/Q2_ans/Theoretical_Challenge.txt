@@ -1,0 +1,28 @@
+Theoretical Challenge
+
+Suppose you have a CSV file with the data below.
+
+A1: 5, A2: 7, A3: 9, B1: 3, B2: 8, B3: =4+5, C1: =5+A1, C2: =A2+B2, C3: =C2+B3
+
+This can be represented in an excel sheet below:
+
+I want a program that will take the CSV input above and produce CSV output with the results.  If it is a value, then return a value.
+If it is a formula then calculate the formula and return the value of that formula.
+
+How will you tackle the challenge above?
+What type of errors you would you check for?
+How might a user break your code?
+
+Answer1:  The CSV files are the files which are separated by Comma. CSV stands for "COMA SEPARATED VALUES".
+          when we required to transfer tabular data between two programs we use CSV file format.
+          The default separator of a CSV file is a comma (,).
+          so, Reading CSV file we can achieve that following ways.
+          1.  Java Scanner class.
+          2. Java String.split() method.
+
+Answer2: We will check for NumberFormatException also as there are some mathematical operations we will check for
+          Arithmetic exceptions too.
+
+
+ Answer3:  1} incorrect reference or path of csv file.
+           2} incorrect format inside csv file.
