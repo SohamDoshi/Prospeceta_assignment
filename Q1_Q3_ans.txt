@@ -1,0 +1,38 @@
+Coding Challenge 
+
+3) Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+Answer : 
+
+
+** When creating an API, the following security and reliability considerations should be taken into account:
+
+    1) Authentication and authorization: Implementing proper authentication and authorization mechanisms
+      such as OAuth or JWT to ensure that only authorized users can access the API.
+     
+	2) Input validation: Validate all incoming data to ensure it is in the expected format and free of malicious content.
+	
+	3) Encryption: Use encryption to protect sensitive data transmitted over the network.
+	
+	4) Rate limiting: Implement rate limiting to prevent abuse and protect against denial of service attacks.
+	
+	5) Logging and monitoring: Keep a log of all API activity and monitor it regularly to detect
+	  and respond to security incidents.
+	 
+	6) Backups: Regularly back up data to ensure it can be recovered in the event of a disaster.
+	
+	7) Disaster recovery: Have a plan in place for disaster recovery to minimize downtime
+	  and data loss in the event of a security incident.
+
+** When consuming an API, the following considerations should be taken into account:
+
+	1) Documentation: Ensure that the API is well documented and that the documentation
+	  provides clear instructions on how to use it securely.
+	
+	2) Security: Verify the security measures in place for the API, such as encryption
+	  and authentication, to ensure sensitive data is protected.
+	  
+	3) Reliability: Evaluate the reliability of the API, including its uptime, response times, and error handling, 
+	  to ensure it meets your needs.
+	  
+	4)Support: Ensure that support is available if you need help using the API or if there is an issue with it.
