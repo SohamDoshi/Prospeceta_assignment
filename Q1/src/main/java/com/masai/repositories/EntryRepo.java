@@ -10,6 +10,7 @@ import com.masai.models.Entry;
 @Repository
 public interface EntryRepo extends JpaRepository<Entry, Integer>{
 
+	
 	Optional<Entry> findByApi(String Api);
 	
 }
