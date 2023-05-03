@@ -36,7 +36,7 @@ public class EntryController {
 	private ModelMapper modelMapper;
 
 	// This API provide list all the Entries
-	// http:localhost:8088/entries
+	// http:localhost:8082/entries
 
 	@GetMapping("/entries")
 	public ResponseEntity<List<Entry>> getEntriesHandler() {
